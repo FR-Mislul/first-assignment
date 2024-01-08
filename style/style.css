@@ -1,0 +1,46 @@
+/* common css part */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.common-font{
+    font-family: 'Merriweather', serif;
+}
+
+/* header part style */
+
+.header {
+  width: 85%;
+  height: 500px;
+  margin: 40px auto;
+}
+.header > .header-banner {
+  background-image: url('../resources/Banner\ Image.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .banner-text{
+    background: linear-gradient(180deg, #1b083f 4%, rgba(163, 154, 181, 0) 100%);
+}
+.header .header-getting {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  filter: brightness(200%);
+}
+.header .header-title {
+  width: 632px;
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
