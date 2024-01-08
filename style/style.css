@@ -85,10 +85,11 @@ main .offer .off-offer {
   height: 500px;
 }
 
+/* 2nd section part */
+
 main .welcome {
   width: 85%;
   height: 500px;
-  border: 1px solid;
   margin: 100px auto;
 }
 main .welcome .welcome-banner {
@@ -143,4 +144,46 @@ main .welcome .welcome-img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* 3rd section part */
+
+main .party-related {
+  width: 85%;
+  height: 400px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+main .party-related .party-details {
+  color: #070211;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+main .party-related .party-details span {
+  color: #f00;
+}
+main .party-related .joining-party-btn {
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
 }
