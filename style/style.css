@@ -193,20 +193,125 @@ main .party-related .joining-party-btn {
 main .comeing-offer {
   width: 85%;
   height: 350px;
-  border: 1px solid;
   margin: 50px auto;
   display: flex;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
-main .comeing-offer .comeing-offer-about {
-  width: 500px;
+main .comeing-offer .comeing-offer-about{
+  width: 400px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .comeing-offer .comeing-offer-about .comeing-offer-getting{
+  color: #F00;
+font-size: 14px;
+font-weight: 500;
+}
+main .comeing-offer .comeing-offer-about .comeing-offer-taitle{
+  color: #070211;
+font-size: 32px;
+font-weight: 900;
+text-transform: capitalize;
+}
+main .comeing-offer-about .comeing-offer-dec{
+  color: rgba(7, 2, 17, 0.60);
+font-size: 13px;
+font-weight: 400;
+line-height: 22px;
+}
+main .comeing-offer .comeing-offer-imgs{
+  border: 5px solid #f00;
+  border-radius: 50%;
+  padding: 20px;
+}
+main .comeing-offer .comeing-offer-img{
+  width: 300px;
+  height: 300px;
 }
 
+main .comeing-offer .comeing-offer-details{
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .comeing-offer .comeing-offer-details .comeing-year{
+  color: #F00;
+font-size: 38px;
+font-weight: 700;
+}
+main .comeing-offer .comeing-offer-details .comeing-new-offer{
+  color: rgba(7, 2, 17, 0.60);
+font-size: 13px;
+font-weight: 400;
+line-height: 22px; 
+}
+main .comeing-offer .comeing-offer-details .comeing-year-img{
+  width: 100px;
+}
 
 /* 5th section part style */
 
-
+main .holiday{
+  width: 85%;
+  margin: 100px auto 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .holiday .holi-offer{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+main .holiday .holi-offer .holiday-getting{
+  color: #070211;
+  text-align: center;
+font-size: 14px;
+font-weight: 500;
+}
+main .holiday .holi-offer .holiday-title{
+  color: #070211;
+  text-align: center;
+font-size: 50px;
+font-weight: 900;
+}
+main .holiday .holi-offer .holiday-title .holi-off{
+  color: #F00;
+}
+main .holiday .holi-offer .holiday-dec{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+}
+main .holiday .holiday-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .holiday .holiday-images .holi-photo-left{
+  width: 500px;
+}
+main .holiday .holiday-images .holi-photo-medil{
+  width: 200px;
+}
+main .holiday .holiday-images .holi-photo-right{
+  width: 300px;
+}
+main .holiday .holiday-images .holi-photo-bottom{
+}
 
 /* 6th section part style */
 
