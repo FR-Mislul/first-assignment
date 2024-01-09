@@ -190,82 +190,131 @@ main .party-related .joining-party-btn {
 
 /* 4th section part */
 
-main .comeing-offer{
-    width: 85%;
-    height: 350px;
-    border: 1px solid;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main .comeing-offer {
+  width: 85%;
+  height: 350px;
+  border: 1px solid;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main .comeing-offer .comeing-offer-about{
-    width: 500px;
+main .comeing-offer .comeing-offer-about {
+  width: 500px;
 }
 
+
+/* 6th section part style */
+
+main .item{
+  width: 85%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .item .item-about{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .item .item-about .item-getting{
+  color: #F00;
+font-size: 15px;
+font-weight: 500;
+}
+main .item .item-about .item-title{
+  color: #070211;
+font-size: 32px;
+font-weight: 900;
+text-transform: capitalize;
+}
+main .item .item-about .item-dec{
+  color: rgba(7, 2, 17, 0.60);
+font-size: 12px;
+font-weight: 400;
+line-height: 32px;
+}
+main .item .item-photos{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+main .item .item-photos .photo{
+  display: flex;
+  gap: 30px;
+}
+main .item .item-photos .pic{
+  width: 340px;
+height: 390px;
+}
 
 
 /* last section style */
 
-main .subscribetion{
+main .subscribetion {
   width: 85%;
   height: 530px;
-  margin: 20px auto 60px ;
+  margin: 20px auto 60px;
   border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-display: flex;
-flex-direction: column;
-gap: 40px;
-justify-content: center;
-align-items: center;
-line-height: ;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  line-height: ;
 }
-main .subscribetion .email-img{
+main .subscribetion .email-img {
   width: 100px;
 }
-main .subscribetion .subscribetion-title{
+main .subscribetion .subscribetion-title {
   color: #070211;
-text-align: center;
-font-size: 30px;
-font-weight: 900;
-text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: capitalize;
 }
-main .subscribetion .subscribetion-dec{
+main .subscribetion .subscribetion-dec {
   width: 720px;
-  color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
 }
-main .subscribetion .inputs input[type="email"]{
- width: 400px;
- padding: 10px;
- border-top-left-radius: 50px;
- border-bottom-left-radius: 50px;
-background: #FFF;
-font-size: 14px;
-border: none;
-outline: none;
-color: rgba(7, 2, 17, 0.30);
-position: relative;
+main .subscribetion .inputs input[type="email"] {
+  width: 400px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #fff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: rgba(7, 2, 17, 0.3);
+  position: relative;
 }
-main .subscribetion .inputs input[type="submit"]{
+main .subscribetion .inputs input[type="submit"] {
   width: 110px;
   padding: 12px;
   border: none;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  background: #F00;
-  color: #FFF;
-text-align: center;
-font-size: 10px;
-font-weight: 600;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /* footer part style */
 
-footer{
+footer {
   width: 100%;
   height: 400px;
   background-color: black;
@@ -275,31 +324,31 @@ footer{
   justify-content: center;
   padding: 120px 100px;
 }
-footer .meet-me{
+footer .meet-me {
   display: flex;
   justify-content: space-between;
 }
-footer .meet-me .location{
-  color: #FFF;
+footer .meet-me .location {
+  color: #fff;
   width: 300px;
-font-size: 18px;
-font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
-footer .meet-me .contract{
-  color: #FFF;
-font-size: 18px;
-font-weight: 500;
-line-height: 30px;
+footer .meet-me .contract {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
 }
-footer .icon{
+footer .icon {
   display: flex;
   gap: 20px;
   margin: 10px auto;
 }
-footer .footer-ended{
- display: flex;
- justify-content: space-between;
- color: #FFF;
-font-size: 18px;
-font-weight: 500;
+footer .footer-ended {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
 }
