@@ -187,3 +187,64 @@ main .party-related .joining-party-btn {
   cursor: pointer;
   border-radius: 8px;
 }
+
+/* 4th section part */
+
+main .comeing-offer{
+    width: 85%;
+    height: 350px;
+    border: 1px solid;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .comeing-offer .comeing-offer-about{
+    width: 500px;
+}
+
+
+
+
+
+
+/* footer part style */
+
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  padding: 120px 100px;
+}
+footer .meet-me{
+  display: flex;
+  justify-content: space-between;
+}
+footer .meet-me .location{
+  color: #FFF;
+  width: 300px;
+font-size: 18px;
+font-weight: 500;
+}
+footer .meet-me .contract{
+  color: #FFF;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+}
+footer .icon{
+  display: flex;
+  gap: 20px;
+  margin: 10px auto;
+}
+footer .footer-ended{
+ display: flex;
+ justify-content: space-between;
+ color: #FFF;
+font-size: 18px;
+font-weight: 500;
+}
